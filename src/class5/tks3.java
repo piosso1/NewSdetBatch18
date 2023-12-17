@@ -1,0 +1,39 @@
+package class5;
+
+import java.util.Scanner;
+
+/*
+Write a program that will ask user to  inputs
+the current time (use 24 hour format).
+Based on the given time define:
+if hour is between 1-11 --> Morning
+if hour between 12-15 --> Afternoon
+if hour between 16-20 --> Evening
+if hour between 21-24 --> Night
+If anything else print invalid
+
+ */
+
+public class tks3 {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("input the current time");
+
+        int currenttime = sc.nextInt();
+
+        if (currenttime >= 1 && currenttime <= 11){
+            System.out.println("morning");
+        } else if (currenttime >= 12 && currenttime <= 15) {
+            System.out.println("Afternoon");
+
+        } else if (currenttime >= 16 && currenttime <= 20) {
+            System.out.println("Evening");
+
+        } else if (currenttime >= 21 && currenttime <= 24) {
+            System.out.println("Night");
+
+        }else System.out.println("Invalid");
+
+    }
+}
