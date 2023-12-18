@@ -1,0 +1,30 @@
+NestedLoop:
+    when we write a loop inside another loop it is
+    called a nested loop.
+
+Examples
+    for(int i=1;i<=5;i++){
+    for(int j=1;j<=5;j++){
+    sout "I am sorry"
+    }
+
+    }
+
+Array:
+    Array is a collection of similar items store in
+    one single variable. these values can be stored and
+    accessed using the indexes. An index is a number
+    that is assigned to every item we store in an
+    array.
+Syntax:
+    There are two ways of creating an array
+    create and fill at the same time or create
+    an empty array and use a loop or something to
+    fill it later on
+    DataType[] nameOfTheArray={item1,item2,item3..}
+    for storing the names
+    String[] names={"Sino","Naso","Kendi"};
+    int [] numbers={10,12,50}
+    char [] genders={'M','F','U'};
+    boolean [] conds={false,true,true,true,false}
+    int [] numbers2=new int[10000]

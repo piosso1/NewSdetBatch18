@@ -1,14 +1,20 @@
 package class19;
 
 public class AnimalTester {
-    class Cat extends Animal{
+    public static void main(String[] args) {
 
-        public Cat(String name, String color, int age, double weight) {
-            super(name, color, age, weight);
-        }
+        Animal a=new Dog("Jacky","Black",1,12);
 
-        public void meow(){
-            System.out.println("Meow meow.....");
-        }
+        Dog d=(Dog)a;
+        d.bark();
+
+        double [] arr= {10,20};
+
+        Dog d1=new Dog("Jacky","Black",1,12);
+        Cat c1=new Cat("Lovly","white",1,12);
+        Animal a1=new Animal("Lovly","white",1,12);
+
+        Animal [] animals={d1,c1,a1};
     }
 }
+
