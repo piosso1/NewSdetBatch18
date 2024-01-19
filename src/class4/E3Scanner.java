@@ -15,7 +15,7 @@ public class E3Scanner {
          */
         Scanner scan = new Scanner(System.in);
         //scan.nextInt() take the int number from the
-        //keyboard ans store it inside age variable
+        //keyboard and store it inside age variable
         int age = scan.nextInt();
         System.out.println("You are "+age+" years old");
 
