@@ -23,6 +23,8 @@ And my phone number is ____
         System.out.println("I live in city "+city+" and state "+state);
         System.out.println("And my phone number is "+phoneNumber);
 
+        System.out.println("my name is"+fName+"and my last name"+lName);
+
         city="Calabar";
         state="Cross River";
         phoneNumber="+2347068660111";

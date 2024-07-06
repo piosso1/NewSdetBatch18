@@ -7,7 +7,7 @@ public class E13ShortHandOp {
         int num=100;
         // num=num+20;
         // what ever we have in num add
-        // 20 to that and store the results back i num
+        // 20 to that and store the results back in num
         num+=20;
         System.out.println(num);
     }

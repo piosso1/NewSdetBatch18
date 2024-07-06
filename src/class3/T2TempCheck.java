@@ -9,7 +9,7 @@ temperature __”.
 public class T2TempCheck {
     public static void main(String[] args) {
 
-        int temp = 35;
+        int temp = 32;
         if (temp < 35) {
             System.out.println("Water will freeze with temperature " + temp);
         } else {
